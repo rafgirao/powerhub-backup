@@ -9,7 +9,6 @@ use Illuminate\Notifications\Notifiable;
 use Spatie\Permission\Traits\HasRoles;
 use Webpatser\Uuid\Uuid;
 
-
 class Account extends Model
 {
     use Notifiable, HasRoles;
